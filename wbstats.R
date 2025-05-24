@@ -20,7 +20,7 @@ paises <- c(
 # ---------------------------
 
 datos <- wb_data(
-  indicator = "GE.EST", # Indicador: Government Effectiveness (WGI)
+  indicator = "GE.EST", # Nombre del indicador
   country = paises,
   start_date = 2010,
   end_date = 2023,
